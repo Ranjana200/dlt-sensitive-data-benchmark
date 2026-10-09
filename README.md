@@ -1,8 +1,5 @@
 # Empirical Benchmarking Suite: Ethereum vs. R3 Corda vs. Hyperledger Fabric
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Research Paper](https://img.shields.io/badge/Target-KSII%20TIIS-blue.svg)](https://www.ksii.or.kr)
-
 This repository contains the complete open-source source code, benchmark runners, and raw execution logs for the research paper:
 
 > **"Comparative Benchmarking of Ethereum, R3 Corda, and Hyperledger Fabric for Sensitive Data Applications: Architecture, Performance, and Privacy Exposure Trade-offs"**
@@ -18,7 +15,6 @@ This repository contains the complete open-source source code, benchmark runners
 ├── fabric/                 # Hyperledger Fabric Chaincode (Go) & Execute-Order-Validate runner
 ├── results/                # Raw hardware execution logs (CSV format) & statistical output
 ├── scripts/                # Data processing script (Mean ± SD & 95% Confidence Intervals)
-├── LICENSE                 # MIT License
 └── README.md               # Reproduction Guide
 ```
 
